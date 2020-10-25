@@ -266,7 +266,7 @@ function colmyem(){
     for(var i=0;i<enmax;i++){
         if(enx[i]!=-1){
             for(var j=0;j<msmax;j++){
-                if(msx[i]!=-1){
+                if(msx[j]!=-1){
                     //当たり判定を行う
                     if(atari(enx[i],eny[i],ensize,ensize,msx[j],msy[j],mssize,mssize)==1){
                         //当たっているので敵機の体力を1減らす
